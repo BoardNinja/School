@@ -1,7 +1,7 @@
 const apiKey = ; // Insert API key here.
 
 const Spotify = {
-  search(term, location, sortBy) {
+  search(onSearch, location, sortBy) {
     return fetch('http://open.spotify.com/track/6rqhFgbbKwnb9MLmUQDhG6'{
       headers: {
         Authorization: `Bearer ${apiKey}`
